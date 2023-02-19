@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/app_back"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="100dp"
+        android:paddingTop="20dp"
+        app:cardCornerRadius="30dp"
+        android:background="@color/card_layout"
+        app:cardElevation="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <TextView
+                android:id="@+id/pageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="24dp"
+                android:text="What you are ?"
+                android:textAlignment="center"
+                android:textColor="@color/app_back"
+                android:textSize="28sp"
+                app:fontFamily="@font/aclonica"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/img_sender"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/pageTitle"
+                android:layout_alignStart="@+id/pageTitle"
+                android:layout_alignEnd="@+id/pageTitle"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="60dp"
+                android:padding="8dp"
+                android:src="@drawable/sender" />
+
+            <TextView
+                android:id="@+id/tv_sender"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/img_sender"
+                android:layout_alignEnd="@+id/img_sender"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-84dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginEnd="-85dp"
+                android:text="@string/tv_sender"
+                android:textAlignment="center"
+                android:textColor="@color/app_back"
+                android:textSize="20sp"
+                app:fontFamily="@font/aclonica"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/img_receiver"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/img_sender"
+                android:layout_alignStart="@+id/img_sender"
+                android:layout_alignEnd="@+id/img_sender"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="11dp"
+                android:padding="8dp"
+                android:src="@drawable/recevier" />
+
+            <TextView
+                android:id="@+id/tv_receiver"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/img_receiver"
+                android:layout_alignEnd="@+id/img_receiver"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="-86dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginEnd="-96dp"
+                android:text="@string/tv_receiver"
+                android:textAlignment="center"
+                android:textColor="@color/app_back"
+                android:textSize="20sp"
+                app:fontFamily="@font/aclonica"
+                tools:ignore="HardcodedText" />
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
