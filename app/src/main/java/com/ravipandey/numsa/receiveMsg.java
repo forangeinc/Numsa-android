@@ -19,9 +19,9 @@ public class receiveMsg extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_send_msg);
+        setContentView(R.layout.activity_receive_msg);
 
-        copyEt = findViewById(R.id.copyEt);
+        copyEt = findViewById(R.id.msgEt);
         copyBtn = findViewById(R.id.copyBtn);
 
         String msgView = getIntent().getStringExtra("moveMsg");

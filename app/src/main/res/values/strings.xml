@@ -2,7 +2,7 @@
     <string name="app_name">NumSa</string>
     <string name="msg">Enter your message:</string>
     <string name="msgcode">Enter your code:</string>
-    <string name="copy_msg">Copy Message</string>
+    <string name="copy_message">Copy Message</string>
     <string name="show_btn">See message</string>
     <string name="copy_code">Copy Code</string>
     <string name="con_btn">Hide Message</string>

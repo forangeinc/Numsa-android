@@ -11,19 +11,20 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="120dp"
         android:paddingTop="20dp"
         app:cardCornerRadius="30dp"
         app:cardElevation="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="500dp"
+            android:layout_height="520dp"
             android:layout_gravity="center_horizontal"
             android:orientation="vertical"
+            android:background="@color/card_layout"
             android:padding="24dp">
 
 
@@ -36,7 +37,7 @@
                 android:drawablePadding="8dp"
                 android:hint="@string/msg"
                 android:padding="8dp"
-                android:textColor="@color/black"
+                android:textColor="@color/app_home_text"
                 tools:ignore="TextFields" />
 
             <Button
