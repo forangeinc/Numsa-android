@@ -5,25 +5,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/numsaback"
+    android:background="@color/app_back"
     tools:context=".splashScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/_400sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:srcCompat="@drawable/splashicon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_340sdp"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/app_home_text"
+        android:textSize="24sp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="660dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="@dimen/_50sdp"
+        android:layout_marginEnd="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_35sdp"
         android:fontFamily="@font/aclonica"
         android:text="@string/splashPage_copy"
         android:textAlignment="center"
         android:textColor="@color/app_home_text"
-        android:textSize="14sp" />
+        android:textSize="10sp" />
+
 
 </RelativeLayout>

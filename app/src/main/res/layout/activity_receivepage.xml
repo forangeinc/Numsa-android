@@ -11,44 +11,44 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="120dp"
-        android:paddingTop="20dp"
-        app:cardCornerRadius="30dp"
-        app:cardElevation="20dp">
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:paddingTop="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:cardElevation="@dimen/_20sdp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="520dp"
+            android:layout_height="@dimen/_410sdp"
             android:layout_gravity="center_horizontal"
             android:orientation="vertical"
             android:background="@color/card_layout"
-            android:padding="24dp">
+            android:padding="@dimen/_20sdp">
 
 
             <EditText
                 android:id="@+id/msgEt"
                 android:layout_width="match_parent"
-                android:layout_height="320dp"
-                android:layout_marginTop="40dp"
+                android:layout_height="@dimen/_255sdp"
+                android:layout_marginTop="@dimen/_30sdp"
                 android:background="@drawable/custom_edittext"
-                android:drawablePadding="8dp"
+                android:drawablePadding="@dimen/_8sdp"
                 android:hint="@string/msgcode"
-                android:padding="8dp"
+                android:padding="@dimen/_8sdp"
                 android:textColor="@color/app_home_text"
                 tools:ignore="TextFields" />
 
             <Button
                 android:id="@+id/conBtn"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="30dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_20sdp"
                 android:backgroundTint="@color/app_home_text"
                 android:text="@string/show_btn"
                 android:textSize="18sp"
-                app:cornerRadius="20dp" />
+                app:cornerRadius="@dimen/_10sdp" />
 
         </LinearLayout>
 
