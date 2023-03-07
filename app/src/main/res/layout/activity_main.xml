@@ -17,7 +17,7 @@
         android:layout_marginTop="@dimen/_80sdp"
         android:layout_marginLeft="@dimen/_20sdp"
         android:layout_marginRight="@dimen/_20sdp"
-        android:layout_marginBottom="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
         android:paddingTop="@dimen/_20sdp"
         app:cardCornerRadius="@dimen/_30sdp"
         app:cardElevation="@dimen/_20sdp">
@@ -41,7 +41,7 @@
                 android:layout_marginStart="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginEnd="@dimen/_20sdp"
-                android:text="What you are ?"
+                android:text="@string/user_home"
                 android:textAlignment="center"
                 android:textColor="@color/app_home_text"
                 android:textSize="28sp"

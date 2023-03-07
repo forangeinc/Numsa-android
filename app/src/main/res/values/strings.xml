@@ -10,5 +10,6 @@
     <string name="splashPage_copy">All Copyrights Reserved © Numsa</string>
     <string name="tv_sender">Sender</string>
     <string name="tv_receiver">Receiver</string>
+    <string name="user_home">Who are you ?</string>
 
 </resources>
